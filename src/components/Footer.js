@@ -14,18 +14,18 @@ const Footer = () => {
               Helping healthcare organizations optimize their IT infrastructure with clear, actionable insights.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="LinkedIn">
+              <button className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="LinkedIn">
                 💼
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Twitter">
+              </button>
+              <button className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Twitter">
                 🐦
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Email">
+              </button>
+              <button className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Email">
                 📧
-              </a>
-              <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Phone">
+              </button>
+              <button className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-primary-500 transition-colors" aria-label="Phone">
                 📞
-              </a>
+              </button>
             </div>
           </div>
           
@@ -33,40 +33,40 @@ const Footer = () => {
             <div>
               <h4 className="text-sm font-semibold text-primary-500 mb-5">SERVICES</h4>
               <ul className="space-y-2.5">
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">IT Health Check</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Security Audit</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Compliance Review</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Infrastructure Assessment</a></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">IT Health Check</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Security Audit</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Compliance Review</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Infrastructure Assessment</button></li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-sm font-semibold text-primary-500 mb-5">RESOURCES</h4>
               <ul className="space-y-2.5">
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Case Studies</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">White Papers</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Blog</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Documentation</a></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Case Studies</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">White Papers</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Blog</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Documentation</button></li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-sm font-semibold text-primary-500 mb-5">ABOUT</h4>
               <ul className="space-y-2.5">
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Our Team</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Careers</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Terms of Service</a></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Our Team</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Careers</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Privacy Policy</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Terms of Service</button></li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-sm font-semibold text-primary-500 mb-5">CONTACT</h4>
               <ul className="space-y-2.5">
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Get in Touch</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Support</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Book a Call</a></li>
-                <li><a href="#" className="text-gray-300 text-sm hover:text-white transition-colors">Partnership</a></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Get in Touch</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Support</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Book a Call</button></li>
+                <li><button className="text-gray-300 text-sm hover:text-white transition-colors text-left">Partnership</button></li>
               </ul>
             </div>
           </div>
