@@ -1,4 +1,4 @@
-import React from 'react';
+// React import not needed with new JSX transform
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import CriticalAreas from './components/CriticalAreas';
