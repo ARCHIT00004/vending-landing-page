@@ -40,10 +40,10 @@ git push -u origin main
 4. **Import** your `vendigo-landing-page` repository
 5. **Click "Deploy"** (Vercel auto-detects React settings)
 
-## 🎉 Result
+## 🎉 Result - LIVE NOW!
 
-In 3-5 minutes you'll have:
-- ✅ **Live website** at `https://vendigo-landing-page.vercel.app`
+Your site is now live at:
+- ✅ **Live website**: https://vending-landing-page12.vercel.app/
 - ✅ **Professional URL** for your IT services landing page
 - ✅ **Auto-deployments** on every code update
 - ✅ **Mobile responsive** design with Tailwind CSS

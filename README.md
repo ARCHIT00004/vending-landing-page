@@ -49,11 +49,14 @@ The project includes custom Tailwind configuration with:
 
 ## Deployment
 
-This project is configured for easy deployment on Vercel:
+This project is deployed on Vercel:
 
-1. Push your code to a Git repository (GitHub, GitLab, or Bitbucket)
-2. Connect your repository to Vercel
-3. Deploy automatically
+**🌐 Live Site**: https://vending-landing-page12.vercel.app/
+
+### Auto-Deployment Setup:
+1. Connected to GitHub repository
+2. Auto-deploys on every push to main branch
+3. Build and deployment process automated
 
 ## Project Structure
 

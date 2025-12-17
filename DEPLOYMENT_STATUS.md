@@ -12,8 +12,8 @@ Your React + Tailwind CSS application is now properly configured and deployed!
 
 ### 🌐 **Your Live Site:**
 - **Repository**: https://github.com/ARCHIT00004/vending-landing-page
-- **Live URL**: https://vending-landing-page.vercel.app (or similar)
-- **Status**: Should be deployed and live now!
+- **Live URL**: https://vending-landing-page12.vercel.app/
+- **Status**: ✅ LIVE AND WORKING!
 
 ### 📱 **What's Live on Your Site:**
 
@@ -77,4 +77,6 @@ Your React + Tailwind CSS application is now properly configured and deployed!
 
 ## 🎉 **Your Professional IT Services Landing Page is LIVE!**
 
-Visit your site and share it with clients! 🚀
+**🌐 Visit: https://vending-landing-page12.vercel.app/**
+
+Share this URL with clients and start getting leads! 🚀
