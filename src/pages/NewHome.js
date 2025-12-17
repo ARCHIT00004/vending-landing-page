@@ -1,4 +1,5 @@
 // React import not needed with new JSX transform
+// New Figma-matched design implementation
 
 const NewHome = () => {
   const criticalAreas = [
