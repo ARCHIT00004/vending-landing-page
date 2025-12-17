@@ -45,15 +45,15 @@ const DocumentationSection = () => {
           {/* Right Side - Deliverables with Connecting Line */}
           <div className="relative">
             {/* Vertical Connecting Line */}
-            <div className="absolute left-8 top-8 bottom-8 w-0.5 bg-gray-300 hidden lg:block"></div>
+            <div className="absolute left-8 top-12 bottom-12 w-0.5 bg-blue-200 hidden lg:block"></div>
             
             {/* Deliverables */}
             <div className="space-y-6">
               {deliverables.map((item, index) => (
                 <div key={index} className="relative flex items-start gap-6">
                   {/* Connector Circle */}
-                  <div className="relative z-10 w-16 h-16 bg-white rounded-full border-4 border-gray-200 flex items-center justify-center flex-shrink-0 shadow-sm">
-                    <div className="w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                  <div className="relative z-10 w-16 h-16 bg-white rounded-full border-4 border-blue-100 flex items-center justify-center flex-shrink-0 shadow-md">
+                    <div className="w-8 h-8 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
                       ✓
                     </div>
                   </div>
@@ -66,7 +66,7 @@ const DocumentationSection = () => {
                   
                   {/* Connecting Line to Next Item */}
                   {index < deliverables.length - 1 && (
-                    <div className="absolute left-8 top-16 w-0.5 h-6 bg-gray-300 hidden lg:block"></div>
+                    <div className="absolute left-8 top-16 w-0.5 h-8 bg-blue-200 hidden lg:block"></div>
                   )}
                 </div>
               ))}
