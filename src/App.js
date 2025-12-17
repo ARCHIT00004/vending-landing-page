@@ -1,23 +1,26 @@
 // React import not needed with new JSX transform
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import CriticalAreas from './components/CriticalAreas';
-import ProcessSection from './components/ProcessSection';
-import DocumentationSection from './components/DocumentationSection';
-import CTASection from './components/CTASection';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import Services from './pages/Services';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <HeroSection />
-      <CriticalAreas />
-      <ProcessSection />
-      <DocumentationSection />
-      <CTASection />
-      <Footer />
-    </div>
+    <Router>
+      <div className="min-h-screen">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
